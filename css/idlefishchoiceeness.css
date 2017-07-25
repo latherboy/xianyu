@@ -1,0 +1,163 @@
+header {
+  padding: 0.22rem 0.26rem 0.21rem 0.24rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 7rem;
+  z-index: 999;
+  background-color: #fff; }
+  header .back {
+    display: block; }
+    header .back img {
+      float: left;
+      width: 0.44rem;
+      height: 0.44rem; }
+  header h2 {
+    float: left;
+    margin-left: 2.38rem;
+    font: 700 0.34rem/0.44rem "";
+    color: #333; }
+  header .zufang {
+    float: right;
+    font: 600 0.26rem/0.44rem "";
+    color: #333; }
+
+#tabs {
+  margin-top: 0.88rem; }
+  #tabs ul {
+    display: flex;
+    justify-content: flex-start; }
+    #tabs ul li {
+      flex: 0 0 33.33333%;
+      text-align: center;
+      background-color: #fff7d9; }
+      #tabs ul li a {
+        padding: 0.2rem 0 0.08rem;
+        display: block; }
+        #tabs ul li a img {
+          width: 0.72rem;
+          height: 0.72rem; }
+        #tabs ul li a p {
+          font: 0.26rem/0.52rem "";
+          color: #333; }
+      #tabs ul li #current {
+        background-color: #ffda44; }
+
+#tabcontent #tab1 .minititle, #tabcontent #tab2 .minititle, #tabcontent #tab3 .minititle {
+  width: 100%;
+  height: 1.44rem; }
+#tabcontent #tab1 ul li {
+  padding-top: 0.08rem; }
+  #tabcontent #tab1 ul li a {
+    display: flex;
+    justify-content: space-between; }
+    #tabcontent #tab1 ul li a .goods_l {
+      width: 2.8rem;
+      height: 2.8rem; }
+      #tabcontent #tab1 ul li a .goods_l img {
+        width: 100%;
+        height: 100%; }
+    #tabcontent #tab1 ul li a .goods_r {
+      width: 4.38rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 0.01rem solid #e7e7e7;
+      position: relative; }
+      #tabcontent #tab1 ul li a .goods_r h2 {
+        font: 700 0.26rem/0.94rem "";
+        color: #333; }
+      #tabcontent #tab1 ul li a .goods_r h3 {
+        font: 700 0.26rem/0.38rem "";
+        color: #ff4444; }
+      #tabcontent #tab1 ul li a .goods_r .via_name_fans {
+        margin-top: 0.64rem; }
+        #tabcontent #tab1 ul li a .goods_r .via_name_fans .via {
+          float: left;
+          width: 0.56rem;
+          height: 0.56rem;
+          margin-right: 0.16rem; }
+        #tabcontent #tab1 ul li a .goods_r .via_name_fans p {
+          float: left;
+          width: 3.5rem;
+          font: 700 0.23rem/0.27rem "";
+          color: #333; }
+        #tabcontent #tab1 ul li a .goods_r .via_name_fans span {
+          float: left;
+          font: 0.2rem/0.29rem "";
+          color: #999; }
+      #tabcontent #tab1 ul li a .goods_r .weibodaren {
+        position: absolute;
+        right: 0;
+        top: 1.98rem;
+        width: 1.14rem;
+        height: 0.36rem; }
+#tabcontent #tab2 ul li {
+  padding-top: 0.08rem; }
+  #tabcontent #tab2 ul li a {
+    display: flex;
+    justify-content: space-between; }
+    #tabcontent #tab2 ul li a .goods_l {
+      width: 2.8rem;
+      height: 2.8rem; }
+      #tabcontent #tab2 ul li a .goods_l img {
+        width: 100%;
+        height: 100%; }
+    #tabcontent #tab2 ul li a .goods_r {
+      width: 4.38rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 0.01rem solid #e7e7e7; }
+      #tabcontent #tab2 ul li a .goods_r h2 {
+        font: 700 0.26rem/0.94rem "";
+        color: #333; }
+      #tabcontent #tab2 ul li a .goods_r h3 {
+        font: 700 0.26rem/0.38rem "";
+        color: #ff4444; }
+      #tabcontent #tab2 ul li a .goods_r .zan {
+        margin-top: 0.88rem; }
+        #tabcontent #tab2 ul li a .goods_r .zan .damuzhi {
+          float: left;
+          width: 0.32rem;
+          height: 0.27rem;
+          margin-right: 0.15rem; }
+        #tabcontent #tab2 ul li a .goods_r .zan p {
+          float: left;
+          font: 700 0.23rem/0.27rem "";
+          color: #333; }
+#tabcontent #tab3 ul li {
+  padding-top: 0.08rem; }
+  #tabcontent #tab3 ul li a {
+    display: flex;
+    justify-content: space-between; }
+    #tabcontent #tab3 ul li a .goods_l {
+      width: 2.8rem;
+      height: 2.8rem; }
+      #tabcontent #tab3 ul li a .goods_l img {
+        width: 100%;
+        height: 100%; }
+    #tabcontent #tab3 ul li a .goods_r {
+      width: 4.38rem;
+      padding-bottom: 0.39rem;
+      border-bottom: 0.01rem solid #e7e7e7; }
+      #tabcontent #tab3 ul li a .goods_r h2 {
+        font: 700 0.26rem/0.94rem "";
+        color: #333; }
+      #tabcontent #tab3 ul li a .goods_r h3 {
+        font: 700 0.26rem/0.38rem "";
+        color: #ff4444; }
+      #tabcontent #tab3 ul li a .goods_r h4 {
+        font: 0.22rem/0.55rem "";
+        color: #999; }
+        #tabcontent #tab3 ul li a .goods_r h4 s {
+          text-decoration: line-through; }
+      #tabcontent #tab3 ul li a .goods_r .xiangyao {
+        margin-top: 0.37rem; }
+        #tabcontent #tab3 ul li a .goods_r .xiangyao .zhayanjing {
+          float: left;
+          width: 0.35rem;
+          height: 0.24rem;
+          margin-right: 0.14rem; }
+        #tabcontent #tab3 ul li a .goods_r .xiangyao p {
+          float: left;
+          font: 0.24rem/0.24rem "";
+          color: #333; }
+
+/*# sourceMappingURL=idlefishchoiceeness.css.map */

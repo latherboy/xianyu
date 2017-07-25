@@ -1,0 +1,346 @@
+@charset "utf-8";
+header{
+	padding:0.22rem 0;
+	position: fixed;
+	left: 0;
+	top:0;
+	width:7.5rem ;
+	z-index: 999;
+	.back{
+		float: left;
+		padding-left: 0.24rem;
+		width:0.44rem ;
+		height: 0.44rem;
+	}
+	.sch{
+		margin-right: 0.4rem;
+		float: right;
+		width:0.48rem ;
+		height: 0.44rem;
+	}
+	.share{
+		margin-right: 0.4rem;
+		float: right;
+		width:0.48rem ;
+		height: 0.44rem;
+	}
+	.more{
+		margin-right: 0.21rem;
+		float: right;
+		width:0.48rem ;
+		height: 0.44rem;
+	}
+}
+#top{
+	padding:0.96rem 0 0.4rem 0.4rem ;
+	background: url("../images/coke_beijing.png") 0 0 no-repeat ;
+	background-size: 7.5rem 2.8rem;
+	.box{
+		.via{
+			float: left;
+			width: 1.44rem;
+			height: 1.44rem;
+		}
+		.box_r{
+			width: 5.3rem;
+			float: right;
+			padding-top: 0.34rem;
+			h2{
+				float: left;
+				font:700 0.34rem/0.34rem "";
+				color: #333;
+			}
+			.lv{
+				float: left;
+				width: 0.69rem;
+				height: 0.34rem;
+				margin-left:0.18rem ;
+			}
+			span{
+				display:block ;
+				float: left;
+				width: 100%;
+				font:0.24rem/0.64rem "";
+				color: #333;
+			}
+		}
+	}
+}
+#seniority{
+	padding:0.36rem 0.4rem 0.31rem;
+	border-bottom: 0.01rem solid #e8e8e8;
+	.tangzhu{
+		float: left;
+		width: 0.8rem;
+		height: 0.85rem;
+		margin-right: 0.16rem;
+	}
+	h2{
+		float: left;
+		width: 2.6rem;
+		height:0.85rem ;
+		background: url("../images/pond_owner_tag.png") no-repeat 0 0.49rem ;
+		background-size: 0.5rem 0.28rem;
+		font:600 0.24rem/0.43rem "";
+		color: #333;
+	}
+	.top{
+		float: left;
+		margin-right: 0.16rem;
+		width: 0.8rem;
+		height: 0.85rem;
+	}
+	.more{
+		float: right;
+		width: 0.16rem;
+		height: 0.85rem;
+	}
+}
+
+.fenjiexian{
+	width: 100%;
+	height: 0.24rem;
+	background: #f3f5f9;
+}
+#gzBtn{
+	padding:0 0.77rem;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.01rem solid #e8e8e8;
+	a{
+		display: block;
+		text-align: center;
+		width: 0.96rem;
+		height:0.96rem ;
+		box-sizing: border-box;
+		i{
+			font:700 0.32rem/0.96rem "";
+			color: #999;
+		}
+	}
+	.regUseCurr{
+		border-bottom: 0.07rem solid #ffda44;
+		i{
+			color: #333;
+		}
+	}
+}
+.gzBtn_scroll{
+	position: fixed;
+	left: 0;
+	top:0.88rem;
+	z-index: 999;
+	width: 5.96rem;
+	background: rgba(255,255,255,.7);
+}
+#registerCont{
+	.swiper-wrapper{
+		.idle{
+			#tabs{
+				border-bottom: 0.01rem solid #e8e8e8;
+				padding-left: 0.4rem;
+				li{
+					float: left;
+					margin-right: 0.8rem;
+					a{
+						font:600 0.28rem/0.95rem "";
+						color: #999;
+					}
+					#current{
+						color: #333;
+					}
+				}
+			}
+			#content{
+				background: #fff;
+				border-top: 2px solid #3d3d3d;
+				padding: 2em;
+			}
+			#tabcontent{
+				ul{
+					li{
+						padding:0.32rem 0 0 0.4rem;
+						.title{
+							margin-bottom: 0.32rem;
+							.via{
+								float: left;
+								display: block;
+								width: 0.8rem;
+								height: 0.8rem;
+								margin-right: 0.16rem;
+							}
+							h2{
+								float: left;
+								width: 4.5rem;
+								font:0.26rem/0.44rem "";
+								color: #333;
+							}
+							p{
+								width: 4.5rem;
+								float: left;
+								font:0.24rem/0.36rem "";
+								color: #999;
+								padding-left:0.34rem ;
+								background: url("../images/index_fresh_time.png") no-repeat 0 0.06rem;
+								background-size: 0.24rem 0.24rem;
+							}
+							span{
+								font:700 0.28rem/0.52rem "";
+								color: #f44;
+							}
+						}
+						.post_banner{
+							ul{
+								li{
+									height: 2.32rem;
+									width: 2.32rem;
+									img{
+										display: block;
+										width: 100%;
+										height: 100%;
+									}
+								}
+							}
+						}
+						h3{
+							font:900 0.26rem/0.98rem "";
+							color: #333;
+						}
+						.message{
+							height: 0.8rem;
+							padding-bottom:0.28rem ;
+							width:6.7rem ;
+							border-bottom: 0.01rem solid #e8e8e8;
+							i{
+								float: left;
+								display: block;
+								width: 0.04rem;
+								height: 0.8rem;
+								background-color: #ffda44;
+								margin-right: 0.2rem;
+							}
+							p{
+								font:0.26rem/0.32rem "";
+								color: #999;
+								margin-bottom: 0.16rem;
+							}
+							p:nth-child(3){
+								margin-bottom: 0;
+							}
+						}
+						.from{
+							font:0.24rem/0.87rem "";
+							color: #3dafff;
+						}
+					}
+				}
+			}
+		}
+		.qa{
+			ul{
+				margin-bottom: 1.2rem;
+				li{
+					padding:0.31rem 0.4rem;
+					a{
+						p{
+							float: left;
+							width: 5rem;
+							font:700 0.28rem/0.47rem "";
+							color: #333;
+						}
+						span{
+							float: left;
+							width: 100%;
+							font:0.28rem/0.86rem "";
+							color: #999;
+						}
+						em{
+							float: right;
+							font:0.22rem/0.47rem "";
+							color: #999;
+						}
+						i{
+							float: left;
+							display: block;
+							font:0.3rem/0.34rem "";
+							color: #38adff;
+							padding-left:0.42rem;
+							background: url("../images/pond_no_answer_icon.png") no-repeat 0 0.04rem;
+							background-size:0.29rem 0.26rem ;
+						}
+					}
+				}
+				.fenjiexian{
+					width: 100%;
+					height:0.24rem;
+					color: #f3f5f9;
+				}
+			}
+		}
+		.activity{
+			.title{
+				padding:0.4rem 0  0.04rem 0.4rem;
+				i{
+					float: left;
+					display: block;
+					width: 0.1rem;
+					height: 0.36rem;
+					background-color: #ffda44;
+					margin-right: 0.16rem;
+				}
+				h2{
+					float: left;
+					font:700 0.28rem/0.36rem "";
+					color: #333;
+				}
+			}
+			ul{
+				padding-left:0.4rem;
+				li{
+					padding:0.41rem 0 0.39rem;
+					border-bottom: 0.01rem solid #e8e8e8;
+					a{
+						.huodong{
+							float: left;
+							width: 1.4rem;
+							height: 1.4rem;
+							margin-right: 0.3rem;
+						}
+						.content{
+							h3{
+								font:0.26rem/0.32rem "";
+								color: #333;
+								padding-left: 0.84rem;
+							}
+							span{
+								display: block;
+								font:0.26rem/0.5rem "";
+								color: #999;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+footer{
+	padding:0.19rem 0.2rem 0.2rem;
+	border-top:0.01rem solid #e7e7e7;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+	background-color: #fff;
+	a{
+		display: block;
+		width:7.1rem ;
+		height: 0.8rem;
+		text-align: center;
+		font:700 0.3rem/0.8rem "";
+		color: #333;
+		background-color: #ffda44;
+	}
+}
+

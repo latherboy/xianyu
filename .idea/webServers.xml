@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1e8fe3bb-28d0-49ad-883c-82bdd80139a0" name="xianyu" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="D:\phpStudy\WWW\xianyu" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

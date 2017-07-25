@@ -1,0 +1,218 @@
+@charset "utf-8";
+header{
+	padding: 0.22rem 0.26rem 0.21rem 0.24rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:7rem ;
+	z-index: 999;
+	background-color: #fff;
+	.back{
+		display: block;
+		img{
+			float: left;
+			width: 0.44rem;
+			height:0.44rem;
+		}
+	}
+	h2{
+		float: left;
+		margin-left: 2.38rem;
+		font:700 0.34rem/0.44rem "";
+		color: #333;
+	}
+	.zufang{
+		float: right;
+		font:600 0.26rem/0.44rem "";
+		color: #333;
+	}
+}
+#banner{
+	margin-top: 0.88rem;
+	ul{
+		li{
+			width: 100%;
+			height: 2rem;
+			a{
+				img{
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+}
+#zunali{
+	padding: 0 0.4rem ;
+	.title{
+		padding:0.57rem 0 0.44rem;
+		h2{
+			float: left;
+			font:700 0.38rem/0.28rem "";
+			color: #333;
+		}
+		img{
+			float: right;
+			width: 0.16rem;
+			height: 0.28rem;
+		}
+		p{
+			float: right;
+			font:0.28rem/0.28rem "";
+			color: #999;
+			margin-right:0.13rem ;
+		}
+	}
+	ul{
+		display: flex;
+		justify-content: space-between;
+		li{
+			text-align: center;
+			width: 0.7rem;
+			padding:0.14rem 0 0.15rem;
+			a{
+				img{
+					width: 100%;
+					height: 0.45rem;
+				}
+				p{
+					font:700 0.24rem/0.77rem "";
+					color: #333;
+				}
+			}
+		}
+	}
+
+}
+.fenjiexian{
+	width: 100%;
+	height: 0.24rem;
+	background-color: #f3f5f9;
+}
+#nearbyhouse{
+	.title{
+		padding:0.27rem 0 0.21rem 0.4rem;
+		i{
+			float: left;
+			display: block;
+			width: 0.08rem;
+			height: 0.32rem;
+			background-color: #ffda44;
+		}
+		h2{
+			float: left;
+			margin-left: 0.16rem;
+			font:700 0.32rem/0.32rem "";
+			color: #333;
+		}
+	}
+	p{
+		padding-left: 0.68rem;
+		background: url("../images/idlefishtenement_zuobiao.png") no-repeat 0.4rem 0 ;
+		background-size: 0.2rem 0.26rem;
+		font:0.26rem/0.26rem "";
+		color: #999;
+		margin-bottom: 0.3rem;
+	}
+	#container{
+		width: 100%;
+		height: 2.8rem;
+	}
+}
+#choicenesshouse{
+	.title{
+		padding:0.34rem 0.4rem 0.33rem;
+		border-bottom: 0.01rem solid #e7e7e7;
+		i{
+			float: left;
+			display: block;
+			width: 0.08rem;
+			height: 0.32rem;
+			background-color: #ffda44;
+		}
+		h2{
+			float: left;
+			font:700 0.32rem/0.32rem "";
+			color: #333;
+			margin-left:0.15rem;
+		}
+	}
+	ul{
+		li{
+			padding:0.32rem 0.4rem 0;
+			.goodstitle {
+				margin-bottom: 0.32rem;
+				.via {
+					float: left;
+					display: block;
+					width: 0.8rem;
+					height: 0.8rem;
+					margin-right: 0.16rem;
+				}
+				h2 {
+					float: left;
+					width: 4.2rem;
+					font: 0.26rem/0.44rem "";
+					color: #333;
+				}
+				p {
+					width: 4.2rem;
+					float: left;
+					font: 0.24rem/0.36rem "";
+					color: #999;
+					padding-left: 0.34rem;
+					background: url("../images/index_fresh_time.png") no-repeat 0 0.06rem;
+					background-size: 0.24rem 0.24rem;
+				}
+				span {
+
+					font: 700 0.28rem/0.52rem "";
+					color: #f44;
+				}
+			}
+			.content{
+				a{
+					display: flex;
+					justify-content: space-between;
+					width: 100%;
+					.content_l{
+						width:4.88rem ;
+						height: 3.6rem;
+						img{
+							width: 100%;
+							height: 100%;
+						}
+					}
+					.content_r{
+						width: 1.78rem;
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+						img{
+							width:1.78rem ;
+							height: 1.78rem;
+						}
+					}
+				}
+			}
+			h4{
+				font:700 0.36rem/0.98rem "";
+				color: #333;
+				border-bottom: 0.01rem solid #e7e7e7;
+			}
+			.dibu{
+				padding:0.3rem 0;
+				p{
+					float: left;
+					font:0.26rem/0.26rem "";
+					color: #999;
+				}
+				span{
+					float: right;
+					font:0.26rem/0.26rem "";
+					color: #999;
+				}
+			}
+		}
+	}
+}

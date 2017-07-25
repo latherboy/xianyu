@@ -1,0 +1,251 @@
+@charset "utf-8";
+header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:6.95rem ;
+	padding:0.22rem 0.23rem 0.21rem 0.32rem;
+	background-color: #fafbfd;
+	z-index: 999;
+	border-bottom: 0.01rem solid #e7e7e7;
+	.back{
+		float: left;
+		width:0.24rem ;
+		height: 0.44rem;
+	}
+	h2{
+		float: left;
+		margin-left:2.5rem ;
+		font:700 0.34rem/0.44rem "";
+		color: #333;
+	}
+	.more{
+		float: right;
+		width: 0.44rem;
+		height: 0.44rem;
+	}
+	.share{
+		float: right;
+		margin-right: 0.5rem;
+		pwidth: 0.35rem;
+		height: 0.44rem;
+	}
+}
+#pond{
+	margin-top: 0.88rem;
+	padding:0.38rem 0.32rem 0.36rem;
+	border-bottom: 0.01rem solid #e7e7e7;
+	p{
+		float: left;
+		font:700 0.26rem/0.29rem "";
+		color: #333;
+		padding-left:0.43rem ;
+		background: url("../images/cokedetails_pond.png") no-repeat;
+		background-size:0.3rem 0.29rem ;
+	}
+	span{
+		margin-left: 0.11rem;
+		float: left;
+		font:0.26rem/0.29rem "";
+		color: #999;
+	}
+	img{
+		float: right;
+		width:0.16rem;
+		height: 0.29rem;
+	}
+}
+#goods{
+	padding:0 0.32rem;
+	.title{
+		padding:0.4rem 0 0.27rem;
+		img{
+			float: left;
+			width: 0.8rem;
+			height: 0.8rem;
+			margin-right: 0.15rem;
+		}
+		.name_date{
+			float: left;
+			h2{
+				font:600 0.3rem/0.44rem "";
+				color: #333;
+			}
+			p{
+				font:0.22rem/0.36rem "";
+				color: #999;
+			}
+		}
+		.yikoujia{
+			float: right;
+			h2{
+				font:0.3rem/0.44rem "";
+				color: #333;
+			}
+			p{
+				font:0.18rem/0.36rem "";
+				color: #ff4444;
+				span{
+					font:0.28rem/0.36rem "";
+				}
+			}
+		}
+	}
+	h4{
+		font:700 0.26rem/0.47rem "";
+		color: #333;
+	}
+	.coket1{
+		margin-top: 0.21rem;
+		width: 6.86rem;
+		height: 4.3rem;
+	}
+	.coket2{
+		margin-top: 0.23rem;
+		width: 6.86rem;
+		height: 4.28rem;
+	}
+	.coket3{
+		margin-top: 0.23rem;
+		width: 6.86rem;
+		height:9.16rem ;
+	}
+	.coket4{
+		margin-top: 0.23rem;
+		margin-bottom: 0.23rem;
+		width: 6.86rem;
+		height:9.16rem ;
+	}
+	.xian{
+		display: block;
+		width: 6.86rem;
+		height: 0.01rem;
+		background-color: #eee;
+	}
+	.dibu{
+		padding:0.39rem 0 0.4rem;
+		p{
+			float: left;
+			font:0.24rem/0.24rem "";
+			color: #38adff;
+			padding-left:0.32rem;
+			background: url("../images/cokedetails_danbao.png") no-repeat;
+			background-size: 0.26rem 0.24rem;
+		}
+		span{
+			float: right;
+			font:0.24rem/0.24rem "";
+			color: #999;
+		}
+	}
+}
+.fenjiexian{
+	width: 100%;
+	height:0.24rem ;
+	background-color: #f3f5f9;
+}
+#person{
+	padding:0.45rem 0.32rem 0.48rem;
+	h2{
+		float: left;
+		font:700 0.3rem/0.46rem "";
+		color: #333;
+	}
+	img{
+		float: right;
+		width: 1.04rem;
+		height: 1.04rem;
+	}
+	p{
+		float: left;
+		font:0.26rem/0.39rem "";
+		color: #333;
+		width: 5.4rem;
+	}
+	.renzheng{
+		float: left;
+		margin-top: 0.28rem;
+		span{
+			float: left;
+			font:0.26rem/0.32rem "";
+			color: #999;
+		}
+		span:first-child{
+			padding-left: 0.4rem;
+			background: url("../images/cokedetails_shimingrenzheng.png") no-repeat;
+			background-size: 0.32rem 0.32rem;
+		}
+		span:last-child{
+			margin-left: 0.5rem;
+			padding-left: 0.4rem;
+			background: url("../images/cokedetails_zhimaxinyong.png") no-repeat;
+			background-size: 0.32rem 0.32rem;
+		}
+	}
+}
+#tiwen{
+	padding:0.35rem 0 0.22rem 0.32rem;
+	h2{
+		font:0.32rem/0.52rem "";
+		color: #333;
+	}
+	span{
+		font:0.26rem/0.67rem "";
+		color: #999;
+	}
+}
+#liuyan{
+	margin-bottom: 0.94rem;
+	.title{
+		padding-left: 0.32rem;
+		border-bottom: 0.01rem solid #e7e7e7;
+		h2{
+			font:700 0.32rem/0.96rem "";
+			color: #333;
+		}
+	}
+	img{
+		width: 100%;
+		height: 3.59rem;
+	}
+}
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	box-shadow: 0 0 0.1rem #eee;
+	background-color: #ffffff;
+	.fl{
+		width: 4.5rem;
+		ul{
+			display: flex;
+			justify-content: space-between;
+			li{
+				padding:0.31rem 0 0.31rem 0.33rem;
+				img{
+					float: left;
+					width: 0.32rem;
+					height: 0.32rem;
+				}
+				p{
+					float: left;
+					margin-left: 0.05rem;
+					font:0.24rem/0.32rem "";
+					color: #333;
+				}
+			}
+		}
+	}
+	.fr{
+		width: 2.25rem;
+		background: #fb2a35;
+		text-align: center;
+		a{
+			font: 0.24rem/0.94rem "";
+			color: #fff;
+		}
+	}
+}

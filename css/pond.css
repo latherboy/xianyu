@@ -1,0 +1,303 @@
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+  opacity: 1; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #999; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0.88rem;
+  border-bottom: 0.01rem solid #e8e8e8;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 999;
+  background-color: #fff; }
+  header h2 {
+    width: 100%;
+    font: 900 0.34rem/0.88rem "";
+    color: #333; }
+
+#sch {
+  padding: 0.14rem 0.16rem;
+  background: #eff1f4; }
+  #sch input {
+    border: none;
+    outline: none;
+    width: 4.58rem;
+    height: 0.6rem;
+    padding-left: 2.6rem;
+    font: 0.26rem/0.6rem "";
+    background: #fff url("../images/pond_search_beijing.png") no-repeat 2.3rem 0.17rem;
+    background-size: 0.26rem 0.26rem;
+    border-radius: 0.1rem; }
+
+#banner ul li {
+  width: 100%;
+  height: 2rem; }
+  #banner ul li a img {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+#interestpond .title {
+  padding: 0.35rem 0 0.35rem 0.4rem; }
+  #interestpond .title i {
+    float: left;
+    display: block;
+    width: 0.08rem;
+    height: 0.32rem;
+    background-color: #ffda44;
+    border-radius: 0.1rem;
+    margin-right: 0.17rem; }
+  #interestpond .title h2 {
+    float: left;
+    font: 900 0.32rem/0.32rem "";
+    color: #333; }
+#interestpond .pond_banner {
+  padding: 0.1rem 0 0.32rem; }
+  #interestpond .pond_banner ul li {
+    width: 2.4rem;
+    padding-top: 0.28rem;
+    text-align: center;
+    border: 0.01rem solid #eee; }
+    #interestpond .pond_banner ul li a img {
+      width: 0.96rem;
+      height: 0.96rem; }
+    #interestpond .pond_banner ul li a h3 {
+      margin-top: 0.19rem;
+      font: 0.26rem/0.46rem "";
+      color: #333; }
+    #interestpond .pond_banner ul li a h4 {
+      font: 0.22rem/0.37rem "";
+      color: #999; }
+    #interestpond .pond_banner ul li a i {
+      margin-top: 0.3rem;
+      display: block;
+      width: 2.4rem;
+      height: 0.56rem;
+      background-color: #ffda44;
+      font: 700 0.22rem/0.56rem "";
+      color: #333; }
+
+.fenjiexian {
+  width: 100%;
+  height: 0.24rem;
+  background-color: #f0f1f5; }
+
+#pond_qa .title {
+  padding: 0.35rem 0.4rem 0.28rem;
+  border-bottom: 0.01rem solid #eee; }
+  #pond_qa .title i {
+    float: left;
+    display: block;
+    width: 0.08rem;
+    height: 0.32rem;
+    background-color: #ffda44;
+    border-radius: 0.1rem;
+    margin-right: 0.17rem; }
+  #pond_qa .title h2 {
+    float: left;
+    font: 700 0.32rem/0.32rem "";
+    color: #333; }
+  #pond_qa .title a {
+    display: block;
+    float: right;
+    font: 700 0.32rem/0.32rem "";
+    padding-left: 0.4rem;
+    background: url("../images/pond_question_icon.png") no-repeat;
+    background-size: 0.32rem 0.32rem;
+    color: #333; }
+#pond_qa ul {
+  padding-left: 0.4rem; }
+  #pond_qa ul li {
+    padding: 0.24rem 0.4rem 0.47rem 0;
+    border-bottom: 0.01rem solid #e8e8e8; }
+    #pond_qa ul li a h2 {
+      font: 700 0.3rem/0.8rem "";
+      color: #333; }
+    #pond_qa ul li a .content p {
+      text-indent: 1em;
+      float: left;
+      width: 5.4rem;
+      font: 0.28rem/0.42rem "";
+      color: #666; }
+      #pond_qa ul li a .content p img {
+        float: left;
+        width: 0.32rem;
+        height: 0.32rem;
+        margin-top: 0.08rem; }
+    #pond_qa ul li a .content img {
+      float: right;
+      width: 1.12rem;
+      height: 1.12rem; }
+    #pond_qa ul li a .below {
+      margin-top: 0.31rem; }
+      #pond_qa ul li a .below span {
+        float: left;
+        font: 0.24rem/0.24rem "";
+        color: #999; }
+      #pond_qa ul li a .below i {
+        float: right;
+        font: 0.24rem/0.24rem "";
+        color: #38adff; }
+
+#localtyrant .title, #chinesestyle .title, #fakeanimal .title {
+  padding: 0.35rem 0 0.35rem 0.4rem; }
+  #localtyrant .title i, #chinesestyle .title i, #fakeanimal .title i {
+    float: left;
+    display: block;
+    width: 0.08rem;
+    height: 0.32rem;
+    background-color: #ffda44;
+    border-radius: 0.1rem;
+    margin-right: 0.17rem; }
+  #localtyrant .title h2, #chinesestyle .title h2, #fakeanimal .title h2 {
+    float: left;
+    font: 900 0.32rem/0.32rem "";
+    color: #333; }
+#localtyrant .localtyrant_banner, #localtyrant .chinesestyle_banner, #localtyrant .fakeanimal_banner, #chinesestyle .localtyrant_banner, #chinesestyle .chinesestyle_banner, #chinesestyle .fakeanimal_banner, #fakeanimal .localtyrant_banner, #fakeanimal .chinesestyle_banner, #fakeanimal .fakeanimal_banner {
+  padding: 0.1rem 0 0.4rem; }
+  #localtyrant .localtyrant_banner ul li, #localtyrant .chinesestyle_banner ul li, #localtyrant .fakeanimal_banner ul li, #chinesestyle .localtyrant_banner ul li, #chinesestyle .chinesestyle_banner ul li, #chinesestyle .fakeanimal_banner ul li, #fakeanimal .localtyrant_banner ul li, #fakeanimal .chinesestyle_banner ul li, #fakeanimal .fakeanimal_banner ul li {
+    width: 3.74rem; }
+    #localtyrant .localtyrant_banner ul li a img, #localtyrant .chinesestyle_banner ul li a img, #localtyrant .fakeanimal_banner ul li a img, #chinesestyle .localtyrant_banner ul li a img, #chinesestyle .chinesestyle_banner ul li a img, #chinesestyle .fakeanimal_banner ul li a img, #fakeanimal .localtyrant_banner ul li a img, #fakeanimal .chinesestyle_banner ul li a img, #fakeanimal .fakeanimal_banner ul li a img {
+      width: 100%;
+      height: 1.6rem; }
+    #localtyrant .localtyrant_banner ul li a p, #localtyrant .chinesestyle_banner ul li a p, #localtyrant .fakeanimal_banner ul li a p, #chinesestyle .localtyrant_banner ul li a p, #chinesestyle .chinesestyle_banner ul li a p, #chinesestyle .fakeanimal_banner ul li a p, #fakeanimal .localtyrant_banner ul li a p, #fakeanimal .chinesestyle_banner ul li a p, #fakeanimal .fakeanimal_banner ul li a p {
+      margin-top: 0.24rem;
+      font: 0.28rem/0.46rem "";
+      color: #333; }
+    #localtyrant .localtyrant_banner ul li a span, #localtyrant .chinesestyle_banner ul li a span, #localtyrant .fakeanimal_banner ul li a span, #chinesestyle .localtyrant_banner ul li a span, #chinesestyle .chinesestyle_banner ul li a span, #chinesestyle .fakeanimal_banner ul li a span, #fakeanimal .localtyrant_banner ul li a span, #fakeanimal .chinesestyle_banner ul li a span, #fakeanimal .fakeanimal_banner ul li a span {
+      font: 0.22rem/0.38rem "";
+      color: #999; }
+
+#pondspecial .title {
+  padding: 0.35rem 0 0.35rem 0.4rem; }
+  #pondspecial .title i {
+    float: left;
+    display: block;
+    width: 0.08rem;
+    height: 0.32rem;
+    background-color: #ffda44;
+    border-radius: 0.1rem;
+    margin-right: 0.17rem; }
+  #pondspecial .title h2 {
+    float: left;
+    font: 900 0.32rem/0.32rem "";
+    color: #333; }
+#pondspecial .pondspecial_banner ul {
+  padding: 0.1rem 0 0.4rem; }
+  #pondspecial .pondspecial_banner ul li {
+    width: 3.74rem; }
+    #pondspecial .pondspecial_banner ul li a img {
+      display: block;
+      width: 100%;
+      height: 2rem; }
+
+#unmissablepond .title {
+  padding: 0.35rem 0 0.28rem 0.4rem;
+  border-bottom: 0.01rem solid #e8e8e8; }
+  #unmissablepond .title i {
+    float: left;
+    display: block;
+    width: 0.08rem;
+    height: 0.32rem;
+    background-color: #ffda44;
+    border-radius: 0.1rem;
+    margin-right: 0.17rem; }
+  #unmissablepond .title h2 {
+    float: left;
+    font: 900 0.32rem/0.32rem "";
+    color: #333; }
+#unmissablepond ul {
+  padding-left: 0.4rem;
+  margin-bottom: 0.98rem; }
+  #unmissablepond ul li {
+    padding: 0.4rem 0.4rem 0.15rem 0;
+    border-bottom: 0.01rem solid #e8e8e8; }
+    #unmissablepond ul li a img {
+      float: left;
+      width: 1.44rem;
+      height: 1.44rem; }
+    #unmissablepond ul li a .content {
+      float: right;
+      width: 4.9rem; }
+      #unmissablepond ul li a .content .minititle {
+        width: 100%;
+        float: left; }
+        #unmissablepond ul li a .content .minititle h3 {
+          float: left;
+          font: 700 0.28rem/0.45rem "";
+          color: #333; }
+        #unmissablepond ul li a .content .minititle .lv {
+          float: right;
+          width: 0.9rem;
+          height: 0.36rem; }
+      #unmissablepond ul li a .content p {
+        float: left;
+        margin-top: 0.11rem;
+        font: 0.26rem/0.44rem "";
+        color: #333; }
+        #unmissablepond ul li a .content p .tzts {
+          width: 1.08rem;
+          height: 0.4rem;
+          margin-right: 0.08rem;
+          float: left; }
+      #unmissablepond ul li a .content span {
+        font: 0.22rem/0.76rem "";
+        color: #999; }
+
+footer {
+  width: 6.5rem;
+  height: 0.83rem;
+  background: #fff;
+  padding: 0.15rem 0.5rem 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 5px #eee;
+  z-index: 998; }
+  footer .f_classify {
+    display: flex;
+    justify-content: space-between;
+    width: 1.95rem; }
+    footer .f_classify li {
+      width: 0.48rem; }
+      footer .f_classify li a img {
+        display: block;
+        width: 0.48rem;
+        height: 0.48rem; }
+      footer .f_classify li a p {
+        text-align: center;
+        font: 0.16rem/0.32rem "";
+        margin-top: 0.03rem; }
+
+#publish {
+  position: fixed;
+  bottom: 0;
+  left: 2.96rem;
+  width: 1.58rem;
+  height: 1.7rem;
+  z-index: 999; }
+  #publish a img {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=pond.css.map */

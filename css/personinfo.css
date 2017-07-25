@@ -1,0 +1,165 @@
+#dingbu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0.24rem 0.23rem 0.2rem 0.32rem;
+  width: 6.95rem;
+  z-index: 999; }
+  #dingbu a .back {
+    float: left;
+    width: 0.22rem;
+    height: 0.44rem; }
+  #dingbu a .erweima {
+    float: right;
+    width: 0.44rem;
+    height: 0.44rem; }
+  #dingbu a .share {
+    margin-right: 0.46rem;
+    float: right;
+    width: 0.44rem;
+    height: 0.44rem; }
+
+#tou {
+  width: 100%;
+  height: 2.2rem;
+  background: url("../images/personinfo_beijing.png") no-repeat;
+  background-size: 100% 2.2rem;
+  position: relative; }
+  #tou .photo {
+    position: absolute;
+    left: 0.4rem;
+    bottom: 0.24rem; }
+
+#personziliao {
+  position: relative;
+  padding: 0 0.4rem 0.36rem; }
+  #personziliao h2 {
+    font: 700 0.3rem/1.28rem "";
+    color: #333; }
+  #personziliao .via {
+    position: absolute;
+    left: 5.9rem;
+    top: -0.64rem; }
+  #personziliao .content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #e7e7e7; }
+    #personziliao .content .c_l {
+      width: 3.68rem;
+      display: flex;
+      justify-content: space-between; }
+      #personziliao .content .c_l li {
+        padding: 0.25rem 0 0.2rem;
+        width: 0.8rem;
+        text-align: center; }
+        #personziliao .content .c_l li h2 {
+          font: 700 0.25rem/0.43rem "";
+          color: #333; }
+        #personziliao .content .c_l li p {
+          font: 500 0.22rem/0.39rem "";
+          color: #999; }
+    #personziliao .content .c_r {
+      width: 1.6rem;
+      padding: 0.37rem 0 0.34rem; }
+      #personziliao .content .c_r a {
+        display: block;
+        width: 1.56rem;
+        height: 0.52rem;
+        border: 0.02rem solid #333;
+        font: 700 0.26rem/0.52rem "";
+        color: #333;
+        text-align: center; }
+  #personziliao h3 {
+    font: 0.22rem/0.73rem "";
+    color: #999; }
+  #personziliao h4 {
+    font: 700 0.3rem/0.36rem "";
+    color: #333; }
+
+.fenjiexian {
+  width: 100%;
+  height: 0.24rem;
+  background-color: #f3f5f9; }
+
+#renzheng {
+  padding: 0 0.4rem 0.4rem; }
+  #renzheng .content li {
+    margin-top: 0.4rem; }
+    #renzheng .content li p {
+      float: left;
+      padding-left: 0.48rem;
+      font: 0.26rem/0.32rem "";
+      color: #333;
+      background-size: 0.32rem 0.32rem; }
+    #renzheng .content li a img {
+      float: right;
+      width: 0.16rem;
+      height: 0.32rem; }
+    #renzheng .content li span {
+      margin-right: 0.16rem;
+      float: right;
+      font: 0.24rem/0.32rem "";
+      color: #999; }
+  #renzheng .content li:first-child p {
+    background: url("../images/personinfo_shirenrenzheng.png") no-repeat; }
+  #renzheng .content li:nth-child(2) p {
+    background: url("../images/personinfo_zhimaxinyong.png") no-repeat; }
+  #renzheng .content li:last-child p {
+    background: url("../images/personinfo_weibo.png") no-repeat; }
+
+.anniu {
+  padding: 0 0.62rem;
+  border-bottom: 0.01rem solid #e8e8e8;
+  display: flex;
+  justify-content: space-between; }
+  .anniu a {
+    text-align: center;
+    display: block;
+    padding: 0 0.16rem;
+    height: 0.95rem;
+    box-sizing: border-box; }
+    .anniu a i {
+      font: 700 0.32rem/0.96rem "";
+      color: #999; }
+  .anniu .regUseCurr {
+    border-bottom: 0.07rem solid #ffda44; }
+    .anniu .regUseCurr i {
+      color: #333; }
+
+#registerCont .swiper-wrapper .mine {
+  height: 5.3rem; }
+  #registerCont .swiper-wrapper .mine .nianfen {
+    width: 100%;
+    height: 0.48rem;
+    background-color: #f8f9fa;
+    text-align: center;
+    font: 0.22rem/0.48rem "";
+    color: #999; }
+  #registerCont .swiper-wrapper .mine img {
+    width: 100%;
+    height: 4.82rem; }
+#registerCont .swiper-wrapper .baby, #registerCont .swiper-wrapper .photo, #registerCont .swiper-wrapper .appraise {
+  height: 11.1rem;
+  text-align: center;
+  background-color: #f3f5f9; }
+  #registerCont .swiper-wrapper .baby img, #registerCont .swiper-wrapper .photo img, #registerCont .swiper-wrapper .appraise img {
+    margin-top: 3.8rem;
+    width: 2.4rem;
+    height: 2.4rem; }
+  #registerCont .swiper-wrapper .baby h2, #registerCont .swiper-wrapper .photo h2, #registerCont .swiper-wrapper .appraise h2 {
+    font: 0.26rem/0.78rem "";
+    color: #999; }
+
+footer {
+  position: fixed;
+  left: 2.96rem;
+  bottom: 0;
+  width: 1.58rem;
+  height: 1.7rem;
+  text-align: center;
+  z-index: 999; }
+  footer a img {
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=personinfo.css.map */
